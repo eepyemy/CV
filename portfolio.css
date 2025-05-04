@@ -96,14 +96,16 @@ body, html {
     font-family: var(--font);
 }
 
+
+html {
+    font-size: 1vmax;
+}
+
 @media (min-width:768px) and (orientation:landscape), (orientation:landscape) {
     .skillset {
         margin-right:20rem;
         padding-left: 5rem;
         padding-right: 5rem;
-    }
-    html {
-        font-size: 1vmax;
     }
     .vl{visibility: visible;display: block;}
     .vl-hl{visibility: hidden;}
@@ -138,8 +140,10 @@ body, html {
         padding-left: 1rem;
         padding-right: 0rem;
     }
-    html {
-        font-size: 1.2vmax;
+    .navbar, .navbar :not(.active), .navbar .navbar-toggler-icon{
+        color: var(--color-text);
+        background-color: var(--color-two);
+        font-size: 2rem;
     }
     .vl{visibility: hidden;display: none;}
     .vl-hl {
