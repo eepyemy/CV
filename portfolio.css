@@ -61,7 +61,7 @@
 .navbar, .navbar :not(.active), .navbar .navbar-toggler-icon{
     color: var(--color-text);
     background-color: var(--color-two);
-    font-size: 1.5vmax;   
+    font-size: 1.5rem;
 }
 
 .navbar-toggler-icon
@@ -85,7 +85,7 @@
 
 html {
     scroll-behavior: smooth !important;
-    font-size: 1vmax;
+    
 }
 
 
@@ -102,7 +102,9 @@ body, html {
         padding-left: 5rem;
         padding-right: 5rem;
     }
-    
+    html {
+        font-size: 1vmax;
+    }
     .vl{visibility: visible;display: block;}
     .vl-hl{visibility: hidden;}
     .mycard {
@@ -136,6 +138,9 @@ body, html {
         padding-left: 1rem;
         padding-right: 0rem;
     }
+    html {
+        font-size: 1.2vmax;
+    }
     .vl{visibility: hidden;display: none;}
     .vl-hl {
         width: 100%;
@@ -155,7 +160,7 @@ body, html {
         padding-left: 2rem;
         padding-right: 5rem;
     }
-
+    
     .photo {
         align-self: center;
         width: 90vw;
