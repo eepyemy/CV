@@ -45,6 +45,17 @@
     --color-text: #67ff74;
 }
 
+:root.pink {
+    --color-one:  #FF90BB;
+    --color-two: #FFC1DA;
+    --color-three: #F8F8E1;
+    --color-four: #8ACCD5;
+    --color-five: #24ddf5;
+    --shadow-color: #2503335c;
+    --color-text: #3a0d7e;
+    /* 9723d0 */
+}
+
 :root.green .photo {
     filter: hue-rotate(56deg);
 }
